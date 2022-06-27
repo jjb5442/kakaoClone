@@ -1,0 +1,29 @@
+.settings-list:first-child {
+    margin: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.settings__box {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings__row i {
+    margin-right: 15px;
+}
+
+.settings__row {
+    display: flex;
+    align-items: center;
+}
+
+.settings__row .badge {
+    margin-left: 10px;
+}
+
+.settings__row:last-child {
+    color: var(--color-gray);
+}
